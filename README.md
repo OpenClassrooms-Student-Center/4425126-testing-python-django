@@ -1,10 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # Django-Test-Project
 
-Ce projet a été implémenté dans le but de s'entrainer aux différentes formes de tests. Le code source contient un projet Django qui un mini site e-commerce. Vous pourrez ainsi développer l'ensemble des scénarios nécessaires afin de tester l'ensemble du code source. À noter que des propositions de corrections sont mises à disposition dans différentes branches du répertoire.
-=======
 Ce projet a été implémenté dans le but de s'entrainer aux différentes formes de tests. Le code source contient un projet Django(un mini site e-commerce). Vous pourrez ainsi développer l'ensemble des scénarios nécessaires afin de tester l'ensemble du code source. À noter que des propositions de corrections sont mises à disposition dans différentes branches du répertoire.
->>>>>>> b96995c (Update Readme)
 
 ## Pré-requis
 
