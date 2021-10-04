@@ -1,7 +1,11 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # Django-Test-Project
 
+<<<<<<< HEAD
 Ce projet a été implémenté dans le but de s'entrainer aux différentes formes de tests. Le code source contient un projet Django qui un mini site e-commerce. Vous pourrez ainsi développer l'ensemble des scénarios nécessaires afin de tester l'ensemble du code source. À noter que des propositions de corrections sont mises à disposition dans différentes branches du répertoire.
+=======
+Ce projet a été implémenté dans le but de s'entrainer aux différentes formes de tests. Le code source contient un projet Django(un mini site e-commerce). Vous pourrez ainsi développer l'ensemble des scénarios nécessaires afin de tester l'ensemble du code source. À noter que des propositions de corrections sont mises à disposition dans différentes branches du répertoire.
+>>>>>>> b96995c (Update Readme)
 
 ## Pré-requis
 
@@ -31,14 +35,39 @@ pip install -r requirements.txt
 `python manage.py runserver`
 
 ## Corrections
-1. Proposition de correction pour les tests unitaires avec UnitTest :
-```
-git checkout unittest-test
-python -m unittest discover tests/
-```
 
-2. Proposition de correction pour les tests unitaires avec Pytest :
+1. Proposition de correction pour les tests unitaires avec Pytest :
 ```
 git checkout pytest-test
-pytest tests/
+pytest
+```
+
+2. Proposition de correction pour les tests unitaires avec des fixtures :
+```
+git checkout fixture-test
+pytest
+```
+
+3. Proposition de correction pour les tests unitaires avec des classes :
+```
+git checkout class-test
+pytest
+```
+
+4. Proposition de correction pour les tests d'intégration :
+```
+git checkout integration-test
+pytest
+```
+
+5. Proposition de correction pour les tests fonctionnels (N'oubliez pas de télécharger le webdriver) : 
+```
+git checkout functional-test
+python manage.py test
+```
+
+6. Proposition de correction pour les tests de performance: 
+```
+git checkout performance-test
+locust
 ```
