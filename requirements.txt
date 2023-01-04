@@ -6,6 +6,7 @@ colorama==0.4.4
 Django==3.2.5
 django-phonenumber-field==5.2.0
 iniconfig==1.1.1
+locust==1.6.0
 packaging==21.0
 phonenumberslite==8.12.26
 Pillow==8.3.0
